@@ -1,0 +1,13 @@
+Chat with CPU "App"
+A fun chat simulator
+The code for this mini-project is Open Source - feel free to remix or redistribute it!
+Created by Donald Leung (https://github.com/DonaldKellett)
+
+Tables used in this mini-project
+--------------------------------
+CREATE TABLE live_cpu_chat_content (
+	id INTEGER PRIMARY KEY AUTO_INCREMENT,
+  user_name TEXT NOT NULL,
+  chat_content TEXT NOT NULL,
+  date TIMESTAMP
+);
