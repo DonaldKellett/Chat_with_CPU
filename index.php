@@ -50,6 +50,7 @@ if ($conn->connect_error) {
         <a href="javascript:void(0)" id="the-button" onclick="sendData(document.getElementById('the-area').value)">Send Message</a>
       </p>
     </form>
+    <script src="init.js"></script>
     <script src="chatWithCPU.js"></script>
   </body>
 </html>
